@@ -172,7 +172,8 @@ namespace fmrent
                      tiempo = cantSemanas;
                     break;
             }
-           
+
+            this.setTotalRecaudado(this.getTotalRecaudado() + costo);
 
             return costo;
            

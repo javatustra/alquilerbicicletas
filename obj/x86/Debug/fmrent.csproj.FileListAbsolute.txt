@@ -12,3 +12,10 @@ D:\rentbikes\fmrent\fmrent\obj\x86\Debug\fmRent.fmRentBike.resources
 D:\rentbikes\fmrent\fmrent\bin\Debug\fmrent.exe
 D:\rentbikes\fmrent\fmrent\bin\Debug\fmrent.pdb
 D:\rentbikes\fmrent\fmrent\obj\x86\Debug\fmrent.Properties.Resources.resources
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\obj\x86\Debug\fmrent.exe
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\obj\x86\Debug\fmrent.pdb
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\bin\Debug\fmrent.exe
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\bin\Debug\fmrent.pdb
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\obj\x86\Debug\fmrent.fmRentBike.resources
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\obj\x86\Debug\fmrent.Properties.Resources.resources
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\obj\x86\Debug\fmrent.csproj.GenerateResource.Cache

@@ -41,6 +41,8 @@ namespace fmrent
                 ponerprecio();
             }
 
+            laTotalRecaudado.Text="Total recaudado: "+this.alquiler.getTotalRecaudado().ToString();
+
         }
 
         private void button1_Click(object sender, EventArgs e)

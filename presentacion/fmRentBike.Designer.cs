@@ -69,6 +69,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.bikestxt = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.laTotalRecaudado = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -477,11 +478,21 @@
             this.panel2.Size = new System.Drawing.Size(283, 130);
             this.panel2.TabIndex = 117;
             // 
+            // laTotalRecaudado
+            // 
+            this.laTotalRecaudado.AutoSize = true;
+            this.laTotalRecaudado.Location = new System.Drawing.Point(442, 271);
+            this.laTotalRecaudado.Name = "laTotalRecaudado";
+            this.laTotalRecaudado.Size = new System.Drawing.Size(85, 13);
+            this.laTotalRecaudado.TabIndex = 118;
+            this.laTotalRecaudado.Text = "Total recaudado";
+            // 
             // fmRentBike
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(895, 470);
+            this.Controls.Add(this.laTotalRecaudado);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label11);
@@ -562,5 +573,6 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.TextBox bikestxt;
         private System.Windows.Forms.Label label19;
+        private System.Windows.Forms.Label laTotalRecaudado;
     }
 }
