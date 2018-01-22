@@ -57,11 +57,7 @@ namespace fmrent
         private void ponerprecio()
         {
 
-          double c=  this.alquiler.calcularPrecio_rentafamiliar("Hora", 3, 0);
-
-          totaltxt.Text = c.ToString();
-              ;
-            /*
+        
             double total = this.alquiler.calcularPrecio_rentafamiliar(bicicletas.CheckedItems.Count,fechaalquiler.Value, horaAlquilertxt.Text, minutoAlquilertxt.Text, fechadevolucion.Value, Horadevoluciontxt.Text, minutoDevoluciontxt.Text);            
             tipolabel.Text=this.alquiler.getTipo();
             tiempotxt.Text = this.alquiler.getTiempo().ToString();
@@ -73,7 +69,7 @@ namespace fmrent
 
             descuentotxt.Text = this.alquiler.getDescuento().ToString();
             totaltxt.Text = total.ToString();
-             * */
+         
 
            
         }
