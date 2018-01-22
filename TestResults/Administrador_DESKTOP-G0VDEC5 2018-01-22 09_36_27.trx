@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f356a307-aa9d-4f40-9471-81ede6432493" name="Administrador@DESKTOP-G0VDEC5 2018-01-22 09:36:27" runUser="DESKTOP-G0VDEC5\Administrador" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="18d10949-0657-4b69-a955-6254de73e8d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrador_DESKTOP-G0VDEC5 2018-01-22 09_36_27">
+      <DeploymentItem filename="C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\bin\Debug\fmrent.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-01-22T09:36:27.9525116-05:00" queuing="2018-01-22T09:36:29.2906100-05:00" start="2018-01-22T09:36:29.3556491-05:00" finish="2018-01-22T09:36:30.0886363-05:00" />
+  <ResultSummary outcome="Inconclusive">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="1" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="calcularPrecioTest" storage="c:\users\administrador.000\documents\github\alquilerbicicletas\testrentbike\bin\debug\testrentbike.dll" id="dced2427-4475-bf1c-7192-2117b0fbf823">
+      <Execution id="f7715e40-5c16-48d2-b52a-1f4510a14ea1" />
+      <TestMethod codeBase="C:/Users/Administrador.000/Documents/GitHub/alquilerbicicletas/TestRentBike/bin/Debug/TestRentBike.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestRentBike.AlquilerTest, TestRentBike, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calcularPrecioTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="dced2427-4475-bf1c-7192-2117b0fbf823" executionId="f7715e40-5c16-48d2-b52a-1f4510a14ea1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f7715e40-5c16-48d2-b52a-1f4510a14ea1" testId="dced2427-4475-bf1c-7192-2117b0fbf823" testName="calcularPrecioTest" computerName="DESKTOP-G0VDEC5" duration="00:00:00.2388026" startTime="2018-01-22T09:36:29.3766688-05:00" endTime="2018-01-22T09:36:29.9660138-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Inconclusive" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7715e40-5c16-48d2-b52a-1f4510a14ea1">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.Inconclusive failed. Verify the correctness of this test method.</Message>
+          <StackTrace>   en TestRentBike.AlquilerTest.calcularPrecioTest() en C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\AlquilerTest.cs:línea 84
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

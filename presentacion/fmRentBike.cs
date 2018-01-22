@@ -56,21 +56,24 @@ namespace fmrent
 
         private void ponerprecio()
         {
-            double  descuento = 0;
-            int precio = this.alquiler.calcularPrecio(fechaalquiler.Value, horaAlquilertxt.Text, minutoAlquilertxt.Text, fechadevolucion.Value, Horadevoluciontxt.Text, minutoDevoluciontxt.Text);            
+
+          double c=  this.alquiler.calcularPrecio_rentafamiliar("Hora", 3, 0);
+
+          totaltxt.Text = c.ToString();
+              ;
+            /*
+            double total = this.alquiler.calcularPrecio_rentafamiliar(bicicletas.CheckedItems.Count,fechaalquiler.Value, horaAlquilertxt.Text, minutoAlquilertxt.Text, fechadevolucion.Value, Horadevoluciontxt.Text, minutoDevoluciontxt.Text);            
             tipolabel.Text=this.alquiler.getTipo();
             tiempotxt.Text = this.alquiler.getTiempo().ToString();
             bikestxt.Text = bicicletas.CheckedItems.Count.ToString();
-            preciotxt.Text = (bicicletas.CheckedItems.Count * precio).ToString();
-            if (bicicletas.CheckedItems.Count >= 3 && bicicletas.CheckedItems.Count <= 5)
-            {
 
+            subtotaltxt.Text = this.alquiler.calcularPrecio(fechaalquiler.Value, horaAlquilertxt.Text, minutoAlquilertxt.Text, fechadevolucion.Value, Horadevoluciontxt.Text, minutoDevoluciontxt.Text).ToString();
 
-                descuento =0.3 * Int16.Parse(preciotxt.Text);
+            
 
-            }
-            descuentotxt.Text = descuento.ToString();
-            totaltxt.Text = (Int16.Parse(preciotxt.Text) - descuento).ToString();
+            descuentotxt.Text = this.alquiler.getDescuento().ToString();
+            totaltxt.Text = total.ToString();
+             * */
 
            
         }

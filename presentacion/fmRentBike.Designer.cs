@@ -46,7 +46,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.preciotxt = new System.Windows.Forms.TextBox();
+            this.subtotaltxt = new System.Windows.Forms.TextBox();
             this.tiempotxt = new System.Windows.Forms.TextBox();
             this.label16 = new System.Windows.Forms.Label();
             this.tipolabel = new System.Windows.Forms.Label();
@@ -242,14 +242,14 @@
             this.label1.TabIndex = 98;
             this.label1.Text = "Sub Total";
             // 
-            // preciotxt
+            // subtotaltxt
             // 
-            this.preciotxt.Location = new System.Drawing.Point(115, 55);
-            this.preciotxt.Name = "preciotxt";
-            this.preciotxt.ReadOnly = true;
-            this.preciotxt.Size = new System.Drawing.Size(66, 20);
-            this.preciotxt.TabIndex = 99;
-            this.preciotxt.TextChanged += new System.EventHandler(this.preciotxt_TextChanged);
+            this.subtotaltxt.Location = new System.Drawing.Point(115, 55);
+            this.subtotaltxt.Name = "subtotaltxt";
+            this.subtotaltxt.ReadOnly = true;
+            this.subtotaltxt.Size = new System.Drawing.Size(66, 20);
+            this.subtotaltxt.TabIndex = 99;
+            this.subtotaltxt.TextChanged += new System.EventHandler(this.preciotxt_TextChanged);
             // 
             // tiempotxt
             // 
@@ -429,7 +429,7 @@
             this.panel1.Controls.Add(this.totaltxt);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.label17);
-            this.panel1.Controls.Add(this.preciotxt);
+            this.panel1.Controls.Add(this.subtotaltxt);
             this.panel1.Controls.Add(this.descuentotxt);
             this.panel1.Controls.Add(this.label16);
             this.panel1.Controls.Add(this.label14);
@@ -550,7 +550,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox preciotxt;
+        private System.Windows.Forms.TextBox subtotaltxt;
         private System.Windows.Forms.TextBox tiempotxt;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.Label tipolabel;

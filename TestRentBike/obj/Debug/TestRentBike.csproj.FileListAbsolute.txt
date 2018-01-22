@@ -1,0 +1,7 @@
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\bin\Debug\TestRentBike.dll
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\bin\Debug\TestRentBike.pdb
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\obj\Debug\TestRentBike.csprojResolveAssemblyReference.cache
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\obj\Debug\TestRentBike.dll
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\obj\Debug\TestRentBike.pdb
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\bin\Debug\fmrent.exe
+C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\bin\Debug\fmrent.pdb

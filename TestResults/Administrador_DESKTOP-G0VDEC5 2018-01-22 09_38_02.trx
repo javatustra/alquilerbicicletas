@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="df3d6ae6-84cd-4bda-b5b7-dd95095cd02c" name="Administrador@DESKTOP-G0VDEC5 2018-01-22 09:38:02" runUser="DESKTOP-G0VDEC5\Administrador" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="18d10949-0657-4b69-a955-6254de73e8d7">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Administrador_DESKTOP-G0VDEC5 2018-01-22 09_38_02">
+      <DeploymentItem filename="C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\bin\Debug\fmrent.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2018-01-22T09:38:02.3512971-05:00" queuing="2018-01-22T09:38:02.3658155-05:00" start="2018-01-22T09:38:02.3713243-05:00" finish="2018-01-22T09:38:02.9006749-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="calcularPrecioTest2" storage="c:\users\administrador.000\documents\github\alquilerbicicletas\testrentbike\bin\debug\testrentbike.dll" id="7d07ae0e-050f-8f65-d710-797a45bbd64c">
+      <Execution id="5126a7da-c770-4c16-b612-2e5e152d9b65" />
+      <TestMethod codeBase="C:/Users/Administrador.000/Documents/GitHub/alquilerbicicletas/TestRentBike/bin/Debug/TestRentBike.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestRentBike.AlquilerTest, TestRentBike, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="calcularPrecioTest2" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="7d07ae0e-050f-8f65-d710-797a45bbd64c" executionId="5126a7da-c770-4c16-b612-2e5e152d9b65" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5126a7da-c770-4c16-b612-2e5e152d9b65" testId="7d07ae0e-050f-8f65-d710-797a45bbd64c" testName="calcularPrecioTest2" computerName="DESKTOP-G0VDEC5" duration="00:00:00.2161195" startTime="2018-01-22T09:38:02.3773305-05:00" endTime="2018-01-22T09:38:02.8836572-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5126a7da-c770-4c16-b612-2e5e152d9b65">
+      <Output>
+        <ErrorInfo>
+          <Message>Assert.AreEqual failed. Expected:&lt;5&gt;. Actual:&lt;20&gt;. </Message>
+          <StackTrace>   en TestRentBike.AlquilerTest.calcularPrecioTest2() en C:\Users\Administrador.000\Documents\GitHub\alquilerbicicletas\TestRentBike\AlquilerTest.cs:línea 102
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

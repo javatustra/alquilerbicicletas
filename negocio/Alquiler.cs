@@ -22,6 +22,7 @@ namespace fmrent
         const String LIBRE = "Libre"; //cuando no esta alquilado
         private String tipo;
         private int tiempo;
+        private double descuento;
         public Alquiler()
         {
             this.Puestos = new List<PuestoBike>();
@@ -179,7 +180,51 @@ namespace fmrent
            
         }
 
-        
+        public double  calcularPrecio_rentafamiliar(int numBicicletas,DateTime fechaAlquiler, String horaAlquiler, String minutoAlquiler, DateTime fechaDevolucion, String horaDevolcuion, String minutoDevolucion)
+        {
+         
+           int precio= calcularPrecio(fechaAlquiler, horaAlquiler, minutoAlquiler, fechaDevolucion, horaDevolcuion, minutoDevolucion);
+           int subtotal = (numBicicletas * precio);
+           descuento = 0;         
+
+           if (numBicicletas >= 3 && numBicicletas <= 5)
+           {
+               
+                this.descuento = 0.3 * subtotal;
+           }
+
+           return subtotal-descuento;
+        }
+        public double calcularPrecio_rentafamiliar(string tipotiempo, int cantidadtiempo, int  familyrent)
+        {
+            int costo=0;
+            double desc=0;
+            switch (tipotiempo)
+            {
+                case "Hora":
+
+                    costo = cantidadtiempo * this.getTarifaHora();
+                  
+
+                    break;
+                case "Dia":
+                    costo = cantidadtiempo * this.getTarifaDia();
+                
+
+                    break;
+                case "Semana":
+                    costo = cantidadtiempo * this.getTarifaSemana();
+                   
+                    break;
+            }
+
+            if (familyrent==1)
+                desc = 0.3 * costo ;
+
+            return costo-desc;
+
+
+        }
         public String concatenarPlacasBicicletas()
         {
             String carros = "";
@@ -288,6 +333,16 @@ namespace fmrent
         public void setTiempo(int tiempo)
         {
             this.tiempo = tiempo ;
+        }
+
+        public double getDescuento()
+        {
+            return descuento;
+        }
+
+        public void setDescuento(int descuento)
+        {
+            this.descuento = descuento;
         }
 
     }
